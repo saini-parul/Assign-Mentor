@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.send(
-   ' <h1>Welcome to NodeJs Task-3</h1>'
+   ' <h1>Assign-Mentor</h1>'
   )
 });
 

@@ -28,6 +28,12 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
+// 3000 is the port number in my case.
+app.listen(9000, function() {
+  console.log("Server is running on port " + 9000);
+});
+
+
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
